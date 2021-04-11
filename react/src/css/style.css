@@ -1,0 +1,122 @@
+*
+{
+    word-wrap: break-word !important;
+}
+.navbar-brand
+{
+    font-size: 1.4rem;
+}
+.hatter
+{
+    /*background-color: #f7e4e4;*/
+    background-color: rgba(92, 184, 92, .1);
+}
+.lightblue
+{
+    background-color: rgba(2, 117, 216, .2) !important;
+}
+.bg-primary
+{
+    background-color: rgba(2, 117, 216, .4) !important;
+}
+.list-group-item, button, input, .navbar-toggler-icon
+{
+    outline: none !important;
+    transition: 0.3s ease-in-out !important;
+    box-shadow: none !important;
+}
+#hover-opacity
+{
+    opacity: 0.8 !important;
+    transition: 0.3s ease-in-out !important;
+    color: white !important;
+}
+#hover-opacity:hover
+{
+    opacity: 1 !important;
+    color: white !important;
+}
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(92, 184, 92, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+#cikktitle
+{
+    margin: -0.8rem 0 0 -0.8rem;
+}
+
+.nav-text
+{
+    transition: 0.3s ease-in-out !important;
+}
+
+.nav-text:hover, .nav-text:focus, .nav-text:active
+{
+    color: rgba(92, 184, 92, 1) !important;
+}
+
+hr.hr-text {
+  position: relative;
+    border: none;
+    height: 1px;
+    background: #999;
+}
+
+hr.hr-text::before {
+    content: attr(data-content);
+    display: inline-block;
+    background: #000;
+    font-weight: bold;
+    font-size: 0.85rem;
+    color: rgb(2, 117, 216);
+    border-radius: 30rem;
+    padding: 0.2rem 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+@media (min-width: 1400px)
+{
+    #list
+    {
+        max-width: 75%;
+    }
+}
+
+@media (max-width: 1400px)
+{
+    .topic
+    {
+        width: 100% !important;
+        margin: auto 2rem;
+    }
+    #list-invert
+    {
+        min-width: 75%;
+    }
+}
+
+.se-wrapper, .sun-editor-editable
+{
+    height: 50vh !important;
+    resize: none;
+    font-size: 2rem;
+    text-align: left;
+}
+
+.sun-editor
+{
+    margin: auto;
+}
+
+footer
+{
+    height: 5vh;
+    margin: auto;
+}
+
+.hely
+{
+    margin-bottom: 5vh;
+}

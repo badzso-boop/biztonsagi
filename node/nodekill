@@ -1,0 +1,4 @@
+#!/bin/sh
+
+netstat -apn 2>/dev/null |grep 8190 | grep LISTEN | awk {'print $7'} | awk -F/ {'print $1'} | head -n 1 | xargs kill 2>/dev/null
+
